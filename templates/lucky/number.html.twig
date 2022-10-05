@@ -1,0 +1,8 @@
+
+{# extend allow to include this tempate inside another, in this case the base twig #}
+{% extends "base.html.twig" %}
+
+{# to be included we specify in wich block of the parent template to insert our template -> in this case the block 'body' #}
+{% block body %}
+<h1>Your lucky number is {{ number }}</h1>
+{% endblock %}

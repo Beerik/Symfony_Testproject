@@ -1,3 +1,8 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+#this can also be set in the controller using annotations
+# app_lucky_number:
+#   path: /lucky/number
+#   controller: App\Controller\LuckyController::number
