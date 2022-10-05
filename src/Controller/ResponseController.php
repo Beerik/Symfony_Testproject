@@ -7,14 +7,14 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
 
-class HomeController extends AbstractController
+class ResponseController extends AbstractController
 {
     // $uri = $_SERVER['REQUEST_URI'];
 
     /**
-     * @Route("/", name="home")
+     * @Route("/getaresponse", name="testresponse")
      */
-    public function requestresponse(): Response
+    public function getResponse(): Response
     {
 
         $uri = $_SERVER['REQUEST_URI'];
